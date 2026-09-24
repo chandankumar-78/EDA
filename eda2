@@ -1,0 +1,131 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "d16e9121-05cc-4294-867b-51d0a3103f94",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Array: [10 20 30 40 50]\n",
+      "Type: <class 'numpy.ndarray'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "my_list = [10, 20, 30, 40, 50]\n",
+    "my_array = np.array(my_list)\n",
+    "print(\"Array:\", my_array)\n",
+    "print(\"Type:\", type(my_array))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "44dd7155-85d8-4fca-a0b4-a6085594f9a2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Matrix:\n",
+      " [[1 2 3]\n",
+      " [4 5 6]]\n",
+      "Type: <class 'numpy.ndarray'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "my_matrix = np.arange(1, 7).reshape(2, 3)\n",
+    "print(\"Matrix:\\n\", my_matrix)\n",
+    "print(\"Type:\", type(my_matrix))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "a247dfa9-3de9-48d2-99bf-f3d392eb1c5e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Array:\n",
+      " [[0.00000000e+000 1.32969962e-311]\n",
+      " [1.32969962e-311 1.32969962e-311]]\n",
+      "Type: <class 'numpy.ndarray'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "arr = np.empty((2, 2))\n",
+    "print(\"Array:\\n\", arr)\n",
+    "print(\"Type:\", type(arr))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "fd05cc3a-5425-45cf-921c-bcd9f6f7d0b5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Random 3x3 Matrix:\n",
+      " [[0.1239954  0.17617882 0.17257099]\n",
+      " [0.5249735  0.69653996 0.15795071]\n",
+      " [0.66909828 0.77892713 0.49160148]]\n",
+      "Type: <class 'numpy.ndarray'>\n",
+      "type: <class 'numpy.ndarray'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "matrix = np.random.random((3,3))\n",
+    "print(\"Random 3x3 Matrix:\\n\", matrix)\n",
+    "print(\"Type:\", type(matrix))\n",
+    "print(\"type:\",type(matrix))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "71b64026-b335-4e77-97c7-ff080bb2a7c1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
